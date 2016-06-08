@@ -2,7 +2,7 @@ document.getElementById('say_hello').onclick = function () {
   document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
   $fh.cloud(
       {
-        path: 'hello',
+        path: 'cloudcalls',
         data: {
 //          hello: document.getElementById('hello_to').value
           hello: document.getElementById('dropdown').value
