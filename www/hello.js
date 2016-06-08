@@ -3,10 +3,10 @@ document.getElementById('say_hello').onclick = function () {
   $fh.cloud(
       {
         path: 'cloudcalls',
+        method: document.getElementById('dropdown').value,
         data: {
 //          hello: document.getElementById('hello_to').value
-          cloudcalls: document.getElementById('dropdown').value,
-          method: document.getElementById('dropdown').value
+          cloudcalls: document.getElementById('dropdown').value
         }
       },
       function (res) {
