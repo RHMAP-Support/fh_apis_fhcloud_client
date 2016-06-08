@@ -5,7 +5,7 @@ document.getElementById('say_hello').onclick = function () {
         path: 'cloudcalls',
         data: {
 //          hello: document.getElementById('hello_to').value
-          hello: document.getElementById('dropdown').value
+          cloudcalls: document.getElementById('dropdown').value
         }
       },
       function (res) {
