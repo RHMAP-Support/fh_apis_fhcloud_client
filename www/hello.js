@@ -4,7 +4,8 @@ document.getElementById('say_hello').onclick = function () {
       {
         path: 'hello',
         data: {
-          hello: document.getElementById('hello_to').value
+//          hello: document.getElementById('hello_to').value
+          hello: document.getElementById('dropdown').value
         }
       },
       function (res) {
