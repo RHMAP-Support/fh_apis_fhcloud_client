@@ -101,11 +101,11 @@ footer > div > small {
 }
 
 .dropdowncontrol {
-    width: 100%;
+    width: 50%;
 
     margin: 5px 0px 5px 0px;
     padding: 5px 5px 5px 5px;
-    font-size: 1.6em;
+    font-size: 2em;
     background-color: #4a87ee;
     border: 1px solid #216CEC;
     color: #fff;
